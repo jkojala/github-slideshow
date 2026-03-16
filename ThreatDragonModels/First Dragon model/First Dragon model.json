@@ -258,13 +258,12 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -280,8 +279,8 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
+              "hasOpenThreats": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -302,7 +301,7 @@
                 {
                   "id": "5b4155f6-8a4b-4bb5-a8aa-d219cb7f13d2",
                   "title": "New STRIDE threat",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "TBD",
                   "type": "Information disclosure",
                   "description": "Provide a description for this threat",
@@ -316,7 +315,7 @@
               "trustBoundaryIds": [],
               "threatFrequency": {
                 "tampering": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 3
               }
             },
